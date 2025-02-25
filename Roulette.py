@@ -16,7 +16,7 @@ def spinnyWinny(spaces):
 def playGame():
     money = 1000
     while True:
-        print("You have -" + str(money) + " dollars.")
+        print("You have " + str(money) + " dollars.")
         bet = int(input("How much do you want to bet?"))
         color = str(input("What color do you want to bet on? Red, Black, or Green?"))
         print("Spinning (and rigging) the wheel...")
@@ -33,6 +33,3 @@ def playGame():
             break
 
 playGame()
-git add "Roulette.py
-git commit -m "Gambling
-git push origin main"
